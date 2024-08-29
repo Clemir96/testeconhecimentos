@@ -1,0 +1,235 @@
+body {
+    font-family: 'Inter', sans-serif;
+    margin: 20px;
+    padding: 0;
+}
+
+.topo {
+    display: flex;
+    .esquerda {
+        width: 422px;
+        height: 235px;
+        top: 101px;
+        left: 104px;
+        gap: 0px;
+        opacity: 0px;
+        h1 {
+            font-size: 40px;
+            font-weight: 400;
+            line-height: 48.41px;
+            text-align: left;
+        }
+        h2 {
+            font-size: 80px;
+            font-weight: 600;
+            line-height: 96.82px;
+            text-align: left;
+        }
+        p {
+            font-size: 32px;
+            font-weight: 400;
+            line-height: 38.73px;
+            text-align: left;
+        }
+    }
+    .centro {
+        position: absolute;
+        width: 790px;
+        height: 264px;
+        top: 195px;
+        left: 454px;
+        gap: 0px;
+        opacity: 0px;
+        h3 {
+            font-size: 32px;
+            font-weight: 400;
+            line-height: 38.73px;
+            text-align: left;
+        }
+        .divide-areas {
+            display: flex;
+            .conteudo-esquerda {
+                display: grid;
+                width: 601px;
+                .headline {
+                    font-size: 48px;
+                    font-weight: 600;
+                    line-height: 58.09px;
+                    text-align: left;
+                }
+                .sub-headline {
+                    font-size: 32px;
+                    font-weight: 400;
+                    line-height: 48px;
+                    text-align: left;
+                }
+                .corpo {
+                    font-size: 28px;
+                    font-weight: 400;
+                    line-height: 48px;
+                    text-align: left;
+                }
+            }
+            .conteudo-direita {
+                display: grid;
+            }
+        }
+    }
+    .direita {
+        position: absolute;
+        width: 790px;
+        height: 264px;
+        top: 195px;
+        left: 1550px;
+        gap: 0px;
+        opacity: 0px;
+        h4 {
+            font-size: 32px;
+            font-weight: 400;
+            line-height: 38.73px;
+            text-align: left;
+        }
+        .divide-areas {
+            display: flex;
+            .conteudo-esquerda {
+                display: grid;
+                width: 601px;
+                .headline {
+                    font-size: 32px;
+                    font-weight: 600;
+                    line-height: 58.09px;
+                    text-align: left;
+                }
+                .sub-headline {
+                    font-size: 24px;
+                    font-weight: 400;
+                    line-height: 48px;
+                    text-align: left;
+                }
+                .corpo {
+                    font-size: 20px;
+                    font-weight: 400;
+                    line-height: 48px;
+                    text-align: left;
+                }
+            }
+            .conteudo-direita {
+                display: grid;
+            }
+        }
+    }
+}
+
+.botoes { 
+    margin-top: 200px;
+    .divide-areas {
+        align-items: baseline;
+        display: flex;
+        .botao-esquerda {
+            display: grid;
+            h5 {
+                font-size: 40px;
+                font-weight: 600;
+                line-height: 48.41px;
+                text-align: left;
+            }
+            .button-desktop {
+                width: 520px;
+                height: 73px;
+                background-color: #00ff00;
+                border: none;
+                color: white;
+                padding: 10px 20px;
+                border-radius: 40px;
+                margin: 5px 0;
+                cursor: pointer;
+                font-size: 18px;
+                text-align: center;
+                font-size: 36px;
+                font-weight: 700;
+                line-height: 43.57px;
+                text-align: center;
+            }
+            .button-desktop-2 {
+                width: 520px;
+                height: 73px;
+                border: none;
+                color: white;
+                padding: 10px 20px;
+                border-radius: 40px;
+                margin: 20px 0;
+                cursor: pointer;
+                font-size: 18px;
+                text-align: center;
+                background-color: #00AF11;
+                font-size: 36px;
+                font-weight: 700;
+                line-height: 43.57px;
+                text-align: center;
+            }
+        }
+        .botao-direita {
+            margin-left: 300px;
+            h6 {
+                font-size: 40px;
+                font-weight: 600;
+                line-height: 48.41px;
+                text-align: left;
+            }
+            .button-mobile {
+                width: 526px;
+                height: 98px;
+                background-color: #00C914;
+                border: none;
+                color: white;
+                padding: 10px 20px;
+                border-radius: 50px;
+                margin: -40px 0;
+                cursor: pointer;
+                font-size: 16px;
+                text-align: center;
+            }
+        }
+    }
+}
+
+.logos-rodape {
+    margin-top: 50px;
+    h7 {
+        font-size: 40px;
+        font-weight: 600;
+        line-height: 48.41px;
+        text-align: left;
+    }
+    .logos {
+        margin-top: 50px;
+        img {
+            width: 127px;
+            height: 74px;
+        }
+        .fundo-preto {
+            background-color: black;
+        }
+    }
+}
+
+.dropdown {
+    margin-left: 934px;
+    display: grid;
+    h7 {
+        font-family: Inter;
+        font-size: 32px;
+        font-weight: 600;
+        line-height: 38.73px;
+        text-align: left;
+    }
+    select {
+        margin-top: 40px;
+        padding: 10px;
+        font-size: 16px;
+        width: 948px;
+        border-radius: 10px;
+        border: 1px solid #ccc;
+    }
+}
+
